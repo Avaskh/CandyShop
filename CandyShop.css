@@ -1,0 +1,53 @@
+body{
+background-color: rgb(247, 247, 247);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   
+}
+
+.OrderBox{ 
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(127, 158, 235);
+    padding: 10px;
+}
+.line{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid black;
+    
+    }
+
+td, th {
+  border: 1px solid black;
+}
+
+th {
+  background-color: rgb(214, 228, 228);
+}
+
+.Order-Table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .OrderLookup {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #invoice {
+    width: 50%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+  }
+  

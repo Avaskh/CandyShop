@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CandyShop.css">
+    </head>
+    <body>
+        <div class="main-container">
+        <div>
+            <img class="image" src="candy-shop.jpg" alt="Candy Shop" width="400" height="400">
+        </div>
+        <div class="OrderBox">
+            <form id="OrderForm">
+            <span>First Name: <input type="text" name="firstName" id="firstName"> </span>
+            <span>Last Name: <input type="text" name="lastName" id="lastName"> </span>
+            <span>Choclate: <input type="text" name="chocolateCount" id="chocolateCount"> </span>
+            <span>Caramel: <input type="text" name="CaramelCount" id="CaramelCount"> </span>
+            <button type="button" onclick="handleSubmit()">order</button>
+            </form>
+        </div>
+        <div class="line"></div>
+        <div>
+           <h3>Orders</h3>
+           <table class="Order-Table" id="OrderTable"></table> 
+        </div>
+        <div class="line"></div>
+        <div class="OrderLookup">
+            <h3>Order Lookup</h3>
+            <div>
+                name: <input id="orderName" name="orderName">
+                <button onclick="handleSearch()">Search</button>
+            </div>
+            <div id="invoice"></div>
+        </div>
+        
+
+        </div>
+        <script src="CandyShop.js"></script>
+    </body>
+</html>
